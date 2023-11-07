@@ -3,10 +3,13 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
-/*for class use dot (.) and for id use Hashtag(#)*/
 .navigation_bar {
-  background-image: linear-gradient(to right, #a2cae8, #7dbae8, #4781ad);
+  /* background-image: linear-gradient(to right, #a2cae8, #7dbae8, #4781ad); */
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 .navmenu {
   color: white;
@@ -15,11 +18,77 @@
   transition-duration: 0.5s;
 }
 .navmenu:hover {
-  color: black;
+  color: cyan;
 }
 .myname {
   font-size: 30px;
+  /*	as*/
   font-family: Arial Black;
   color: orangered;
+  text-shadow: 0px 0px 3px black;
+  font-variant: small-caps;
+}
+.sect {
+  border: 2px solid black;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect div {
+  font-size: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.home {
+  height: 600px;
+  color: black;
+  font-family: Bookman Old Style;
+  background-image: linear-gradient(to right, #8bc5f7, #3a80bd, #093f6e);
+}
+.homename {
+  font-size: 80px;
+}
+#designation {
+  font-size: 50px;
+  color: #400e04;
+  font-variant: small-caps;
+  font-weight: bolder;
   text-shadow: 0px 0px 3px white;
+}
+.home div {
+  font-weight: bolder;
+}
+
+/* about section  */
+
+.about {
+  background-color: black;
+  height: 400px;
+}
+.aboutdata {
+  margin-top: 25px;
+}
+.cobj {
+  font-size: 25px;
+  text-align: justify;
+  text-indent: 20%;
+  color: #7ae6f0;
+}
+.section_head {
+  font-size: 50px;
+  color: royalblue;
+  font-variant: small-caps;
+  font-family: Arial Black;
+  text-shadow: 0px 0px 3px brown;
+}
+.myimg {
+  transition-duration: 1.5s;
+  border-radius: 90px;
+}
+.myimg:hover {
+  transform: scale(1.4);
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px goldenrod;
 }
