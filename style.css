@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 .navigation_bar {
-  /* background-image: linear-gradient(to right, #a2cae8, #7dbae8, #4781ad); */
-  background-color: black;
+  background-image: linear-gradient(to right, #a2cae8, #7dbae8, #4781ad);
+  /* background-color: black; */
   position: fixed;
   top: 0px;
   left: 0px;
@@ -19,19 +19,20 @@
 }
 .navmenu:hover {
   color: cyan;
+  transition-duration: 1s;
 }
 .myname {
   font-size: 30px;
   /*	as*/
   font-family: Arial Black;
   color: orangered;
-  text-shadow: 0px 0px 3px black;
+  text-shadow: 0px 0px 5px black;
   font-variant: small-caps;
 }
 .sect {
   border: 2px solid black;
   height: 500px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
@@ -41,8 +42,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Home section  */
 .home {
   height: 600px;
+  padding: 30px;
   color: black;
   font-family: Bookman Old Style;
   background-image: linear-gradient(to right, #8bc5f7, #3a80bd, #093f6e);
@@ -55,7 +59,7 @@ html {
   color: #400e04;
   font-variant: small-caps;
   font-weight: bolder;
-  text-shadow: 0px 0px 3px white;
+  text-shadow: 0px 0px 4px white;
 }
 .home div {
   font-weight: bolder;
@@ -91,4 +95,35 @@ html {
   transform: scale(1.4);
   border-radius: 100px;
   box-shadow: 0px 0px 20px goldenrod;
+}
+
+/*skills section starts here*/
+
+.skills {
+  background-color: lightgrey;
+}
+.skillset td ul li {
+  margin-top: 35px;
+  font-weight: bolder;
+  font-size: 30px;
+  color: red;
+}
+.card-text {
+  font-size: 20px;
+}
+.project_cards {
+  width: 90%;
+}
+.card {
+  transition-duration: 1s;
+}
+.card:hover {
+  box-shadow: 0 0 20px black;
+}
+.projects {
+  height: 600px;
+  background-image: linear-gradient(to RIGHT, #ddeff0);
+}
+.myicon {
+  border-radius: 20px;
 }
