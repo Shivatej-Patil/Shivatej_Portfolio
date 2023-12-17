@@ -11,7 +11,7 @@
   left: 0px;
   width: 100%;
   border: black 2px;
-  z-index: 5;
+  z-index: 10;
 }
 .navmenu {
   color: white;
